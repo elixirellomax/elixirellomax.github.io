@@ -38,4 +38,4 @@ function albumPhotos(id) {
   return fetch(`${endpoint}/albums/${id}/photos`).then((r) => r.json())
 }
 
-module.exports = { allPosts, allUsers, getPost, userPosts, userAlbums, albumPhotos }
+export default { allPosts, allUsers, getPost, userPosts, userAlbums, albumPhotos }
